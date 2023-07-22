@@ -1,0 +1,10 @@
+{{#if posters}}
+{{#each posters}}
+<a href="/posts/{{_id}}">{{title}}</a>
+<p>{{sum}}</p>
+<img width="300" src="{{img}}"/>
+<p>{{views}}</p>
+{{/each}}
+{{else}}
+<h1>No File</h1>
+{{/if}}

@@ -1,0 +1,8 @@
+{{#if post}}
+<h1>{{post.title}}</h1>
+<img width="500" src="{{post.img}}"/>
+<p>{{{post.desc}}}</p>
+<a href="{{post._id}}/edit">Edit</a>
+<a href="{{post._id}}/delete">Delete</a>
+<h1>View: {{post.views}}</h1>
+{{/if}}
